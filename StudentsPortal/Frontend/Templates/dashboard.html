@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../Bi Icons/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../images/schoolLogo.png" alt="">
+            <h1>TMIT</h1>
+        </div>
+        <div class="navbtn" >
+            <i class="bi bi-list" id="navbtn"></i>
+            <i class="bi bi-x" id="navclose"></i>
+        </div>
+        <div class="navigation">
+            <a href="#" class="active">Dash Board</a>
+            <a href="./profile.html">Students Profile</a>
+            <a href="./courseReg.html">Course Registration</a>
+            <a href="./payments.html" >Fees & Payments</a>
+        </div>
+    </div>
+    <div class="mainsection">
+        <div class="introSection">
+            <h1>Welcome back, <span id="userName">John Francis</span></h1>
+            <p>The Students Dash Board, contains a general summary of students information in the students portal,
+                it is advised to keep these information private, unless requested by approved administrative personnel of this institution.
+            </p>
+            <button>Continue</button>
+        </div>
+        <div class="overview">
+            <p>Overview</p>
+            <div class="overviewContainer">
+                <div class="box">
+                    <p>Total Number of Fees paid: <span id="feeNumber">5</span></p>
+                    
+                    <p>Total Amount in Naira: <span id="feeAmount">50,000</span></p>
+                    
+                    <p>Pending Fees: <span id="pendingFees">10</span></p>
+                    
+                    <p>Total Amount in Debt: <span id="feeDebt">-190,000</span></p>
+                    
+                </div>
+                <div class="box">
+                    <p>Total Number of Courses registered:</p>
+                    <span id="CourseReg">3</span>
+                    <p>Total Number pending:</p>
+                    <span id="pendingCourse">5</span>
+                </div>
+                <div class="box">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

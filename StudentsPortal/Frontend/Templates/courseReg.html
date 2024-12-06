@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../Bi Icons/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../images/schoolLogo.png" alt="">
+            <h1>TMIT</h1>
+        </div>
+        <div class="navbtn">
+            <i class="bi bi-list" id="navbtn"></i>
+            <i class="bi bi-x" id="navclose"></i>
+        </div>
+        <div class="navigation">
+            <a href="./dashboard.html">Dash Board</a>
+            <a href="./profile.html" >Students Profile</a>
+            <a href="#" class="active">Course Registration</a>
+            <a href="./payments.html">Fees & Payments</a>
+        </div>
+    </div>
+    <div class="maintab">
+        <div class="CourseReginfo">
+            <p>Course Registration / Select Session</p>
+            <h2>Course Registration</h2>
+        </div>
+        <form class="form">
+            <div id="select">
+                <p>Academic Session:</p>
+                    <input type="text" placeholder="Select Academic session" id="academicSession" readonly>
+                    <div id="userSelect">
+                        <p>2023/2024</p>
+                        <p>2024/2025</p>
+                        <p>2025/2026</p>
+                        <p>2026/2027</p>       
+                    </div>
+                </div>
+                <div id="select">
+                    <p>Level:</p>
+                        <input type="text" placeholder="Select Level" id="level" readonly>
+                        <div id="userSelect2">
+                            <p>100HND</p>
+                            <p>200HND</p>
+                            <p>300HND</p>
+                            <p>400HND</p>       
+                        </div>
+                    </div>
+            <div id="select">
+                <p>Semester:</p>
+                <input type="text" placeholder="Please Input Semester">
+            </div>
+            <div id="select">
+                <p>Department:</p>
+                <input type="text" name="Department" placeholder="Please Input Department">
+            </div>
+            <div id="select">
+                <p>Course:</p>
+                <input type="text" name="Course" placeholder="Please Input Course">
+            </div>
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+main{
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.introductory_message{
+    color: white;
+    line-height: 1.5;
+    width: 55%;
+}
+
+.introductory_message h4{
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.747);
+}
+.introductory_message h1{
+    font-size: 40px;
+    margin: 10px 0px;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.introductory_message span{
+    color: rgb(10, 211, 10);
+    font-weight: 700;
+}
+
+.introductory_message p{
+    font-size: 13px ;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.288);
+}
+
+main form{
+    margin: 0px;
+    width: 40%;
+    
+}
+main form .input{
+    padding: 6px;
+    width: 100%;
+    background-color: rgba(189, 189, 189, 0.521);
+    margin: 12px 0px;
+    border-radius: 0.5rem;
+}
+main form .input input{
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgba(58, 57, 57, 0.884);
+    font-size: 15px;
+}
+.username{
+    display: flex;
+    gap: 10px;
+}
+
+.userauth{
+    display: flex;
+    gap: 10px;
+}
+
+
+.userreference{
+    display: flex;
+    gap: 10px;
+}
+.otherDetails{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding: 10px;
+}
+.nextbtn{
+    width: 60%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 173, 38);
+    color: white;
+    font-weight: 400;
+    box-shadow: 0px 0px 3px 0px #151616;
+    margin: auto;
+}
+
+.nextbtn:active{
+    background-color: rgba(19, 201, 59, 0.87);
+}
+
+
+.prevbtn{
+    width: 90px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(1, 173, 38);
+    color: white;
+    font-weight: 400;
+    box-shadow: 0px 0px 3px 0px #151616;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+.prevbtn:active{
+    background-color: rgba(19, 201, 59, 0.87);
+}
+
+@media screen and (max-width: 600px){
+    main{
+        padding: 40px 20px;
+        display: block;
+        width: 100%;
+    }
+    .introductory_message{
+        display: none;
+    }
+    main form {
+        margin: 0px;
+        width: 100%;
+      }
+      main form .input {
+        padding: 3px 5px;
+        margin: 10px 0px;
+        border-radius: 0.5rem;
+      }
+      main form .input input {
+        width: 100%;
+        height: 17px;
+        border: none;
+        outline: none;
+        font-size: 12px;
+    }
+    .username, .userauth, .userreference, .otherDetails{
+        display: flex;
+        gap: 5px;
+      }
+      .input p {
+        font-size: 11px;
+        color: rgba(22, 22, 22, 0.884);
+      }
+}
